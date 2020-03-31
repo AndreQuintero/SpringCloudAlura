@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.alura.microservice.config.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.alura.microservice.eureka.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FornecedorApplication<fornecedor>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.alura.microservice.fornecedor.FornecedorApplication",
+            "projectName": "fornecedor",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TransportadorApplication<transportador>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.alura.microservice.transportador.TransportadorApplication",
+            "projectName": "transportador",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LojaApplication<loja>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.alura.microservice.loja.LojaApplication",
+            "projectName": "loja",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthApplication<auth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.auth.auth.AuthApplication",
+            "projectName": "auth",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.zuul.zuul.DemoApplication",
+            "projectName": "zuul",
+            "args": ""
+        }
+    ]
+}
